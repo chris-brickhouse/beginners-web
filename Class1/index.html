@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <title>This Is My Website</title>
+
+    <style type="text/css">
+        /* styles for <div id="flex-box"> */
+        #flex-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        /* styles for <div class="inside-flex"> */
+        .inside-flex {
+            background-color: black;
+            color: #fff;
+            /* for styles: top - right - bottom - left */
+            padding: 5px 10px 8px 10px;
+            margin: 15px;
+            border: 1px solid red;
+        }
+
+        /* styles for <div id="flex-grow">  */
+        #flex-grow {
+            background-color: #efefef;
+            color: #000;
+            padding: 10px;
+            margin: 15px;
+            border: 1px solid red;
+            flex-grow: 1
+        }
+
+        .strong {
+            font-weight: 800;
+        }
+
+        .text-bigger {
+            font-size: 1.25em;
+        }
+
+        /* styles for <table class="table"> */
+        .table {
+            width: 100%;
+            border: 1px solid #c0c0c0;
+        }
+
+        /* styles for all <th> tags inside <table class="table"> */
+        .table th {
+            background-color: #efefef;
+        }
+
+        /* styles for all <th>, <td> tags inside <table class="table">  */
+        .table th,
+        .table td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        span {
+            color: red;
+        }
+
+        /* styles for all <ul> tags */
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* styles for all <li> inside <ul> tags */
+        ul li {
+            list-style-type: none;
+            padding: 10px;
+            border-bottom: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <h1>Biggest Header</h1>
+    <h2>Biggest Header</h2>
+    <h3>Biggest Header</h3>
+    <h4>Biggest Header</h4>
+    <h5>Biggest Header</h5>
+    <h6>Biggest Header</h6>
+
+    <strong>hello</strong> <em>world</em>
+
+    <span>this is a span</span>
+
+    <span>this is a span</span>
+
+    <!-- ordered (numbered) list -->
+    <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+
+    <!-- this div has two columns-->
+    <div id="flex-box">
+
+        <!-- left column -->
+        <div class="inside-flex strong text-bigger">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4 <strong> new</strong></li>
+            </ul>
+
+        </div>
+
+        <!-- right column - grows to fit page -->
+        <div id="flex-grow">
+            this is a div
+        </div>
+
+    </div>
+
+    <!-- table -->
+    <table class="table">
+        <!-- thead is table header-->
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>QTY</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <!-- tbody is table body -->
+        <tbody>
+            <tr>
+                <td>Test Item 1</td>
+                <td>400</td>
+                <td>$500.00</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+</body>
+
+</html>
