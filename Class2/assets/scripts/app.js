@@ -1,4 +1,4 @@
-const hideShow = (id) => {
+const navigate = (id) => {
   id = id === "" ? "home" : id;
   var elems = document.querySelectorAll(".content-item");
 
