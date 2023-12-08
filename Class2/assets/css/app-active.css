@@ -1,0 +1,109 @@
+   /* reset */
+   html,
+   body {
+       margin: 0;
+       padding: 0;
+       background-color: #efefef;
+   }
+
+   .logo img {
+       max-height: 60px;
+       margin: 0 20px;
+   }
+
+   .flex-grow-1 {
+       flex-grow: 1;
+   }
+
+   .d-flex {
+       display: flex;
+   }
+
+   .align-items-center {
+       align-items: center;
+   }
+
+   .justify-content-right {
+       justify-content: right;
+   }
+
+   .header {
+        background-color: #fff;
+       padding: 10px 20px;
+   }
+
+   .nav .nav-item {
+       padding: 15px;
+   }
+
+   .nav .nav-item a,
+   .cart a {
+       font: bold 1.25em 'Roboto', sans-serif;
+       color: #0a2b5e;
+       text-decoration: none;
+   }
+
+   .cart {
+       margin-left: 20px;
+   }
+
+   .nav .nav-item a svg {
+       color: #555454;
+   }
+
+   .cart a {
+
+       color: #000;
+   }
+
+   .container {
+       margin: 0 auto;
+       max-width: 1024px;
+   }
+
+   .content {
+       border-top: 1px solid #c0c0c0;
+       width: 100%;
+   }
+
+   .content-item {
+    margin-top: 15px;
+        background-color: #fff;
+        border: 1px solid #c0c0c0;
+        border-radius: 6px;
+
+   }
+
+   .content-item h2 {
+        background-color: #ddd;
+        margin:0;padding: 10px 20px;
+        border-bottom: 1px solid #c0c0c0;
+   }
+   .content-body {
+        padding: 15px 30px;
+   }
+
+   .hide {
+    display: none;
+   }
+   .show {
+    display: 'inline-block';
+   }
+
+/* styles for <table class="table"> */
+.table {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+}
+
+/* styles for all <th> tags inside <table class="table"> */
+.table th {
+    background-color: #efefef;
+}
+
+/* styles for all <th>, <td> tags inside <table class="table">  */
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+}
