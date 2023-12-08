@@ -3,9 +3,9 @@ const app = express();
 var http = require("http");
 var reload = require("reload");
 const port = 3000;
-const data = require(__dirname + "/Class2/assets/data/products.json");
+const data = require(__dirname + "/assets/data/products.json");
 
-app.use(express.static("Class2/assets"));
+app.use(express.static("assets"));
 
 app.get(["/", "/home", "/products", "/contact"], (req, res) => {
   res.sendFile(__dirname + "index.html");
