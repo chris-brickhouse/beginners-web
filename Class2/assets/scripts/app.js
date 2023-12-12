@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
   let route = url.split("/")[url.split("/").length - 1];
 
   if (route.length > 0) {
-    hideShow(route);
+    navigate(route);
   }
 });
 

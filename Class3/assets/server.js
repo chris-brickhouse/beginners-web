@@ -2,14 +2,13 @@ const express = require("express");
 const app = express();
 var http = require("http");
 var reload = require("reload");
-const fs = require("fs");
 const port = 3000;
-const data = require(__dirname + "/Class3/assets/data/products.json");
+const data = require(__dirname + "/assets/data/products.json");
 
-app.use(express.static("Class3/assets"));
+app.use(express.static("assets"));
 
-app.get(["/", "/home", "/products", "/contact", "/cart"], (req, res) => {
-  res.sendFile(__dirname + "/Class3/index-planned.html");
+app.get(["/", "/home", "/products", "/contact"], (req, res) => {
+  res.sendFile(__dirname + "index.html");
 });
 
 app.get("/api/get/products", (req, res) => {

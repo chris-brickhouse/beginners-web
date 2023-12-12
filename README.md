@@ -10,3 +10,16 @@ inline js at first, then move external
 npm install express
 npm install nodemon -g
 npm install reload
+
+then add to bottom of index.html
+<script src="reload/reload.js"></script>
+
+modify package.json and add
+
+"scripts": {
+"start": "nodemon -e \* server.js"
+}
+
+then
+
+npm run start
