@@ -65,6 +65,7 @@ body {
     background-color: #fff;
     border: 1px solid #c0c0c0;
     border-radius: 6px;
+    width: 100%;
 }
 
 .content-body {
@@ -76,4 +77,9 @@ body {
     margin: 0;
     padding: 10px 20px;
     border-bottom: 1px solid #c0c0c0;
+}
+
+/* hides item */
+.hide {
+    display: none;
 }

@@ -12,6 +12,7 @@ npm install nodemon -g
 npm install reload
 
 then add to bottom of index.html
+
 <script src="reload/reload.js"></script>
 
 modify package.json and add
