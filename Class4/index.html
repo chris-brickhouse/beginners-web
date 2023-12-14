@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>DonJawnson Music</title>
+
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="https://kit.fontawesome.com/7c4491d372.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container d-flex align-items-center">
+
+            <div class="logo d-flex align-items-center">
+                <a href="javascript: navigate('')"><img src="images/logo.png" /></a>
+            </div>
+
+            <div class="nav d-flex align-items-center flex-grow-1 justify-content-right">
+
+                <div class="nav-item">
+                    <a href="javascript: navigate('products')"><i class="fa-solid fa-box-taped fa-fw"></i> Products</a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="javascript: navigate('contact')"><i class="fa-regular fa-envelope fa-fw"></i> Contact Us</a>
+                </div>
+
+            </div>
+
+            <div class="cart">
+                <a href="javascript: navigate('cart')"><i class="fa-regular fa-bag-shopping"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+
+            <!-- section for home -->
+            <div class="content-item" id="home">
+
+                <h2>Welcome</h2>
+
+                <div class="content-body">
+                    DonJawnson Records was formed in 2023 in Phoenixville PA and has a diverse roster of artists such as Ron Swanson, Rob Blomson, Jawn Jawnson, Dan Janson, and Ran Swanson.
+                </div>
+
+            </div>
+
+            <!-- section for products -->
+            <div class="content-item hide" id="products">
+
+                <h2>Product</h2>
+
+                <div class="content-body">
+                    this is products page
+                </div>
+            </div>
+
+            <!-- section for cart -->
+            <div class="content-item hide" id="cart">
+
+                <h2>Cart</h2>
+
+                <div class="content-body">
+                    this is cart page
+                </div>
+            </div>
+
+            <!-- section for contact -->
+            <div class="content-item hide" id="contact">
+
+                <h2>Contact</h2>
+
+                <div class="content-body">
+                    this is contact page
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="reload/reload.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

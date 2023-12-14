@@ -24,3 +24,5 @@ modify package.json and add
 then
 
 npm run start
+
+settings --> prettier --> increase line width from 80 to 200
